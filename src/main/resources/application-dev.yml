@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gcp:
+      sql:
+        instance-connection-name:
+        database-name: app
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+projectId:
+
+cors:
+  origins: http://localhost:3000
